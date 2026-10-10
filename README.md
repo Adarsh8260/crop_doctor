@@ -1,17 +1,33 @@
-# crop_doctor
+# Plant Disease Detector
 
-A new Flutter project.
+An offline Android app that detects crop/plant leaf diseases from a photo
+and suggests treatment.
 
-## Getting Started
+## Features
+- Take a leaf photo or pick one from the gallery
+- On-device prediction (works offline, no internet needed)
+- Shows crop name, disease, and confidence score
+- Shows treatment advice for the detected disease
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (Android app)
+- TensorFlow Lite (on-device inference)
+- MobileNetV2 (transfer learning, trained in Google Colab with Python)
 
-A few resources to get you started if this is your first Flutter project:
+## Dataset
+- PlantVillage
+- Rice Leaf Disease dataset (Kaggle)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Model Details
+- Accuracy: (fill in after training)
+- Number of classes: (fill in after training)
+- Image size: 224 x 224
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+(fill in after the app is built)
+
+## Screenshots
+(add later)
+
+## Author
+Your Name, CSE Final Year, Your College
